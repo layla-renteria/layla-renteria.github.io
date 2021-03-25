@@ -1,0 +1,40 @@
+echo "# layla-renteria.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/layla-renteria/layla-renteria.github.io.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+* {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 1000;
+
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+<h1>seobei</h1>
+<a href="https://docs.google.com/presentation/d/1Ue_Ig7unMH7XQjaSOz3eSy3PzQh56rFi2TJTW0AN3po/edit#slide=id.gca12195042_0_0"> click me example </a>
+
+</body>
+</html>
